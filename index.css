@@ -92,3 +92,16 @@ h1, h2, h3 {
     background-color: #6ab4c7;
   }
 }
+
+body {
+  /* background-image:url("images/windmills3-unsplash.jpg"); */
+  background-color: #ffeecc;
+  color: #4d3300;
+  font-family: Georgia; sans-seirif;
+  font-size: 16px;
+  line-height: 2.0;
+}
+
+h1 {
+  color: #332200;
+}
