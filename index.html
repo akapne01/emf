@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
     <title>Dangers of Electromagnetic fields</title>
-  </head>
+    
 
   <body>
     <!-- Navigation menu -->
     <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+    <div class="container-fluid" id="nav1">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -40,12 +40,45 @@
     </div>
   </nav>
 
-  <script type="text/javascript">
+<script>
+  $(function(){
+    $.scrollify(){
+      section:".next",
+    });
+  });
+</script>
+<script>
+$(document).ready(function()){
+}
+$.scrollify({
+  section : "section",
+  sectionName : "section-name",
+  interstitialSection : "",
+  easing: "easeOutExpo",
+  scrollSpeed: 1100,
+  offset : 0,
+  scrollbars: true,
+  standardScrollElements: "",
+  setHeights: true,
+  overflowScroll: true,
+  updateHash: true,
+  touchScroll:true,
+  before:function() {},
+  after:function() {},
+  afterResize:function() {},
+  afterRender:function() {}
+});
+</script>
 
-  </script>
+<div class="container container-fluid bg-1 text-center next">
+  <img src="images/satellite-unsplash.jpg" class="img-fluid" alt="Satellite">
+  <div class="centered">
+  <h1 id="text-bg-1">We are surronded by Electromagnetic Fields every day and do not even realize their impact on our health. Every time you use laptop, WiFi or your phone, you put yourself at risk</h1>
+</div>
+</div>
 
 
-<div class="container-fluid">
+  <div class="container-fluid bg-2 text-center next1">
 
   <h1>Dangers of <abbr title="Electromagnetic Fields">EMF</abbr> (Electromagnetic fields)</h1>
   <p>
@@ -67,10 +100,15 @@
   <p>
     There have been a lot of reserch done over the years.
   </p>
+   <a href="#" class="btn btn-default btn-lg"> <span class="glyphicon glyphicon-search"></span> Search</a>
+</div>
+
+<div class="container-fluid bg-3 text-center next1">
   <p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZCuyriGTTS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     Agi
   </p>
+</div>
 </div>
 
   </body>
