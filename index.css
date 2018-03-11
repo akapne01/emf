@@ -1,18 +1,13 @@
+/* body { */
+    /* position: relative; */
+/* } */
+/* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;} */
+/* #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;} */
+/* #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;} */
+/* #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;} */
+/* #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;} */
 
 
-body {
-  position: relative;
-}
-/* #section1 {padding-top:50px;height:720px;color: #fff; background-color: #1E88E5;} */
-/* #section2 {padding-top:50px;height:720px;color: #fff; background-color: #673ab7;} */
-/* #section3 {padding-top:50px;height:720px;color: #fff; background-color: #ff9800;} */
-/* #section4 {padding-top:50px;height:720px;color: #fff; background-color: #1E88E5;} */
-/* #section5 {padding-top:50px;height:720px;color: #fff; background-color: #673ab7;} */
-/* #section61 {padding-top:50px;height:720px;color: #fff; background-color: #00bcd4;} */
-/* #section62 {padding-top:50px;height:720px;color: #fff; background-color: #009688;} */
-
-/* #section1 {margin: auto} */
-/* #section2 {margin: auto} */
 
 .carousel-inner {
     max-height: 720px;
@@ -20,6 +15,11 @@ body {
 }
 
   #myCarousel img {
+    min-height: 300px;
+    min-width: 100%;
+  }
+
+  #myCarousel2 img {
     min-height: 300px;
     min-width: 100%;
   }
@@ -34,9 +34,6 @@ body {
     color: white;
     line-height: 1.6;
 }
-
-
-
 
 
  .bg-1 {
@@ -60,12 +57,6 @@ img {
 
 
 
-
-/* #nav1 { */
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-/* } */
-
 /* center text from 1st section */
 .centered {
     position: absolute;
@@ -73,99 +64,6 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-/*
-.navbar-inverse {
-  background-color: #462158;
-  border-color: #6ab4c7;
-}
-.navbar-inverse .navbar-brand {
-  color: #6ab4c7;
-}
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus {
-  color: #462158;
-}
-.navbar-inverse .navbar-text {
-  color: #6ab4c7;
-}
-.navbar-inverse .navbar-nav > li > a {
-  color: #6ab4c7;
-}
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
-  color: #462158;
-}
-.navbar-inverse .navbar-nav > li > .dropdown-menu {
-  background-color: #462158;
-}
-.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a {
-  color: #6ab4c7;
-}
-.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #462158;
-  background-color: #6ab4c7;
-}
-.navbar-inverse .navbar-nav > li > .dropdown-menu > li.divider {
-  background-color: #6ab4c7;
-}
-.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
-.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: #462158;
-  background-color: #6ab4c7;
-}
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-  color: #462158;
-  background-color: #6ab4c7;
-}
-.navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
-  color: #462158;
-  background-color: #6ab4c7;
-}
-.navbar-inverse .navbar-toggle {
-  border-color: #6ab4c7;
-}
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-  background-color: #6ab4c7;
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #6ab4c7;
-}
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-  border-color: #6ab4c7;
-}
-.navbar-inverse .navbar-link {
-  color: #6ab4c7;
-}
-.navbar-inverse .navbar-link:hover {
-  color: #462158;
-}
-
-@media (max-width: 767px) {
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #6ab4c7;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #462158;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #462158;
-    background-color: #6ab4c7;
-  }
-}
-
-*/
 
 /* body { */
   /* background-image:url("images/windmills3-unsplash.jpg"); */

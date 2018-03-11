@@ -21,76 +21,49 @@
           $('#fullpage').fullpage();
       });
   </script>
-
   </head>
 
- <body>
 
-  <div id="fullpage">
-
-    <div class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-      <a class="navbar-brand" href="#">EMF - Electomagnetic Fields</a>
-    </div>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
-
-    <ul id="menu" class="nav navbar-nav">
-      <li data-menuanchor="section1" class="active"><a href="#section1">Home</a></li>
-      <li data-menuanchor="section2" class=""><a href="#section2">Definition</a></li>
-      <li data-menuanchor="section3" class=""><a href="#section3">Video</a></li>
-      <li data-menuanchor="section4" class=""><a href="#section4">Spectrum</a></li>
-      <li data-menuanchor="section51" class=""><a href="#section51">Natural Source</a></li>
-      <li data-menuanchor="section52" class=""><a href="section52">Artifical Source</a></li>
-      <li data-menuanchor="section6" class=""><a href="#section6">About Me</a></li>
-    </ul>
-
-    </div>
-  </div>
-
-<!--
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">EMF - Elecromagnetic Fields</a>
-        </div>
-        <div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="#section1">Home</a></li>
-              <li><a href="#section2">Definition</a></li>
-              <li><a href="#section3">Video</a></li>
-              <li><a href="#section4">EMF Spectrum</a></li>
-              <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Source of EMF<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#section51">Natural Source EMF</a></li>
-                  <li><a href="#section52">Artifical Source EMF</a></li>
-                </ul>
-              </li>
-              <li><a href="#section6">About Me</a></li>
-            </ul>
-          </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">EMF - Electomagnetic Fields</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">Definition</a></li>
+            <li><a href="#section3">Video</a></li>
+            <li><a href="#section4">Spectrum</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EMF Source<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#section51">Natural Source</a></li>
+                <li><a href="#section62">Artifical Souurce</a></li>
+              </ul>
+            </li>
+            <li><a href="#section6">About Me</a></li>
+          </ul>
         </div>
       </div>
-    </nav>
--->
-<!-- Home Section1-->
-<div class="section container-fluid bg-1 text-center fullpage-wrapper" id="section1">
+    </div>
+  </nav>
 
+
+<!-- Home Section1-->
+<div class="container-fluid bg-1" id="section1">
   <img src="images/satellite.jpg" class="img-fluid" alt="Satellite">
   <div class="centered">
-  <h1 id="text-bg-1">We are surronded by Electromagnetic Fields every day and do not even realize their impact on our health. Every time you use laptop, WiFi or your phone, you put yourself at risk</h1>
-</div>
+    <h1 id="text-bg-1">We are surronded by Electromagnetic Fields every day and do not even realize their impact on our health. Every time you use laptop, WiFi or your phone, you put yourself at risk</h1>
+  </div>
 </div>
 
 
@@ -191,12 +164,13 @@
 <!-- Electromagnetic spectrum end -->
 
   <!-- Carousel - Natural Source Section5-1-->
-  <div class="container-fluid section" id="section51">
+  <div class="container-fluid" id="section51">
 
     <h1>Natural source <a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom">EMF</a></h1>
     <p></p>
 
   <div id="myCarousel" class="carousel" data-ride="carousel">
+
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -238,7 +212,7 @@
         </div>
       </div>
     </div> <!-- carousel inner -->
-  </div> <!-- carousel slide -->
+
 
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -249,7 +223,11 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
+
+  </div> <!-- carousel slide -->
 </div>
+
+
 
 
 <!-- Carousel - Artifical Source EMF Section 5-2-->
@@ -258,14 +236,14 @@
   <h1>Artifical source <a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom">EMF</a></h1>
   <p></p>
 
-<div id="myCarousel" class="carousel " data-ride="carousel">
+<div id="myCarousel2" class="carousel " data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel2" data-slide-to="1"></li>
+    <li data-target="#myCarousel2" data-slide-to="2"></li>
+    <li data-target="#myCarousel2" data-slide-to="3"></li>
+    <li data-target="#myCarousel2" data-slide-to="4"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -309,25 +287,24 @@
     </div>
 
   </div> <!-- carousel inner -->
-</div> <!-- carousel slide -->
 
 <!-- Left and right controls -->
-<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+<a class="left carousel-control" href="#myCarousel2" data-slide="prev">
   <span class="glyphicon glyphicon-chevron-left"></span>
   <span class="sr-only">Previous</span>
 </a>
-<a class="right carousel-control" href="#myCarousel" data-slide="next">
+<a class="right carousel-control" href="#myCarousel2" data-slide="next">
   <span class="glyphicon glyphicon-chevron-right"></span>
   <span class="sr-only">Next</span>
 </a>
-
+</div> <!-- carousel slide -->
 
 
 
 
 <!-- About me Section6-->
 <div class="container-fluid section" id="section6">
-  
+
     <h1>About Me</h1>
     <h2>Who am I</h2>
     <p>
