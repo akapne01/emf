@@ -59,6 +59,23 @@ img {
       color: #555555;
   }
 
+  @media (max-width: 400px) {
+    #myCarousel0 {
+       display: none;
+     }
+
+     #myCarousel {
+        display: none;
+      }
+
+      #myCarousel-s2 {
+         display: none;
+       }
+
+       #myCarousel2 {
+          display: none;
+        }
+     }
 
 
 /* center text from 1st section */
