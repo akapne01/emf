@@ -1,5 +1,22 @@
-h1, h2, h3 {
-  color: #462158;
+/* h1, h2, h3 { */
+  /* color: #462158; */
+/* } */
+
+.carousel-inner {
+    max-height: 720px;
+    overflow: hidden;
+
+}
+
+
+  #myCarousel img {
+    min-height: 300px;
+    min-width: 100%;
+  }
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
 }
 
 #text-bg-1 {
@@ -26,10 +43,11 @@ img {
       color: #555555;
   }
 
-  .container-fluid {
+/*  .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+*/
 
 #nav1 {
   padding-top: 10px;
@@ -37,9 +55,9 @@ img {
 }
 
 .container {
-    position: relative;
-    text-align: center;
-    color: white;
+    /* position: relative; */
+    /* text-align: center; */
+    /* color: white; */
 }
 .centered {
     position: absolute;
@@ -150,6 +168,6 @@ body {
   line-height: 2.0;
 }
 
-h1 {
-  color: #332200;
-}
+ /* h1 { */
+  /* color: #332200; */
+/* } */
