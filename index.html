@@ -195,7 +195,6 @@
                 Following image shows electromagnetic spectrum:
               </p>
               <a href="http://www2.lbl.gov/MicroWorlds/ALSTool/EMSpec/EMSpec2.html" target="_blank"><img class="img-fluid center" src="images/emspec.gif" alt="Electromagnetic Spectrum"></a>
-
               <p>
                 All spectrum can be divided into 2 parts: Ionizing radiation and Non-Ionizing radiation. Visible light is only very small part of Non-Ionizing radiation. As we can see in the below picture, only very small amount of the electromagnetic spectrum can be seen, this means that most of it we are not able to see. As it turns out even though we are not able to see it, it still affects us in various ways.
               </p>
@@ -210,7 +209,8 @@
             </h4>
           </div>
           <div id="collapse2" class="panel-collapse collapse">
-            <div class="panel-body"><p>
+            <div class="panel-body">
+              <p>
               Ionizing radiation consists of:
               <ul class="list-group">
                 <li class="list-group-item">Gamma rays</li>
@@ -229,7 +229,8 @@
           </h4>
         </div>
         <div id="collapse3" class="panel-collapse collapse">
-          <div class="panel-body"><p>
+          <div class="panel-body">
+            <p>
             Non-Ionizing radiation consists of
             <ul class="list-group">
               <li class="list-group-item strong">Optical light which consits of:</li>
@@ -267,12 +268,9 @@
 
 <!-- Carousel - Natural Source Section5-1-->
 <div class="container-fluid" id="section51">
-
   <h1>Natural source <a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom">EMF</a></h1>
 
-
   <div id="myCarousel" class="carousel" data-ride="carousel">
-
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -345,7 +343,7 @@
   <h1>Artifical source <a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom"> <a href="#" class="close" data-dismiss="alert">&times;</a> EMF</a></h1>
   <p></p>
 
-  <div id="myCarousel2" class="carousel " data-ride="carousel">
+  <div id="myCarousel2" class="carousel" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
@@ -359,7 +357,6 @@
       <li data-target="#myCarousel2" data-slide-to="8"></li>
       <li data-target="#myCarousel2" data-slide-to="9"></li>
     </ol>
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
 
@@ -435,7 +432,6 @@
 
 
     </div> <!-- carousel inner -->
-
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -446,36 +442,34 @@
       <span class="sr-only">Next</span>
     </a>
   </div> <!-- carousel slide -->
-
   <!-- shown only on mobile devices -->
   <div class="hidden-xl hidden-lg hidden-md hidden-sm container">
     <div class="row">
       <div class="col">
-
         <h3>Artifical Sources of EMF are</h3>
         <ul class="list-group">
           <li class="list-group-item" style="padding-left=50px">Windmills</li>
           <li class="list-group-item">All Electronic Devices</li>
           <li class="list-group-item">Power lines - weather above or underground</li>
           <li class="list-group-item">Metal Plumbing</li>
-<li class="list-group-item">
-          <div class="container">
-  <a href="#wirlesscom" data-toggle="collapse"  id="link-a">Wirless Comunications</a>
-  <div id="wirlesscom" class="collapse">
-    <ul>
-      <li>Power Meters</li>
-      <li>Cell Phones</li>
-      <li>Cell Towers</li>
-      <li>Wirless Routers</li>
-      <li>Cordless Phones</li>
-    </ul>
-  </div>
-</div> <!-- container -->
-        </ul> <!-- list group -->
-      </div> <!-- col -->
-    </div> <!-- row -->
-  </div> <!-- Container shown only mobile devices -->
-</div> <!-- Section 5-2 -->
+          <li class="list-group-item">
+            <div class="container">
+              <a href="#wirlesscom" data-toggle="collapse"  id="link-a">Wirless Comunications</a>
+              <div id="wirlesscom" class="collapse">
+                <ul>
+                  <li>Power Meters</li>
+                  <li>Cell Phones</li>
+                  <li>Cell Towers</li>
+                  <li>Wirless Routers</li>
+                  <li>Cordless Phones</li>
+                </ul>
+              </div>
+            </div> <!-- container -->
+          </ul> <!-- list group -->
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- Container shown only mobile devices -->
+  </div> <!-- Section 5-2 -->
 
   <!-- About me Section6-->
   <div class="container-fluid section" id="section6">
@@ -535,23 +529,23 @@
     </p>
   </div>
 
-<script>
-$(document).ready(function() {
-  $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
-});
+  <script>
+  $(document).ready(function() {
+    $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
+  });
 
-$(window).resize(function() {
-  $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
-});
+  $(window).resize(function() {
+    $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
+  });
 
-$(document).ready(function(){
-  $('[data-toggle="popover"]').popover();
-});
-$(document).on('click','.navbar-collapse.in',function(e) {
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+  $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a:not(".dropdown-toggle")') ) {
-        $(this).collapse('hide');
+      $(this).collapse('hide');
     }
-});
+  });
 </script>
 
 </body>
