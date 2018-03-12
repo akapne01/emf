@@ -32,6 +32,14 @@ td, th {
   top: 20%;
   bottom: auto;
   background: rgba(0, 0, 0, 0.50);
+  max-width: 80%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+#section2CarouselCaption {
+  top: 10%;
 }
 
 .bg-1 {
