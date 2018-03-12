@@ -75,3 +75,11 @@ img {
            display: none;
          }
      }
+
+     p, th, td, .carousel-caption, h1, h2, h3, h3, ul, li, a {
+       font-family: "Georgia", Times, serif;
+     }
+
+     p, ul, li, table {
+       font-size: 20px;
+     }
