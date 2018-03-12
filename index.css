@@ -9,6 +9,10 @@
     width: 90%;
 }
 
+ #link-a {
+   margin: 0 -15px;
+ }
+
 .carousel-inner {
     max-height: 720px;
     overflow: hidden;
