@@ -108,3 +108,7 @@ p {
     text-align: left;
   }
 }
+
+#emfColor {
+  color: black;
+}

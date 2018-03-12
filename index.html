@@ -79,7 +79,7 @@
           <img class="img-fluid" src="images/windmills3-unsplash.jpg" alt="Windmills">
           <div class="carousel-caption">
             <div class="text-light text-center">
-              <h1>Dangers of <a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom">EMF</a></h1>
+              <h1>Dangers of <span class="hidden-lg hidden-md hidden-sm hidden-xl">EMF</span><span id="emfColor"><a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom"class="hidden-xs">EMF</a></span></h1>
               <p>
                 Electromagnetic fields are present nearely everywhere in our environment, but they are invisible to the human eye. If you are sensitive to EMF, you will experience symptoms like:
               </p>
@@ -125,7 +125,7 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="text-light text-center">
-            <h1>Dangers of <a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom">EMF</a></h1>
+            <h1>Dangers of <span class="hidden-lg hidden-md hidden-sm hidden-xl">EMF</span><a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field" data-trigger="hover" data-placement="bottom" class="hidden-xs">EMF</a></h1>
             <p>
               Electromagnetic fields are present nearely everywhere in our environment, but they are invisible to the human eye. If you are sensitive to EMF, you will experience symptoms like:
             </p>
@@ -183,17 +183,17 @@
 
   <!-- Electromagnetic Spectrum Section 4-->
   <!-- Acardion -->
-  <div class="section container-fluid section" id="section4">
+  <div class="section container-fluid" id="section4">
     <div class="container">
       <h2>Electromagnetic Spectrum</h2>
       <div class="panel-group" id="accordion">
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is electromagnetic spectrum?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1-1">What is electromagnetic spectrum?</a>
             </h4>
           </div>
-          <div id="collapse1" class="panel-collapse collapse">
+          <div id="collapse1-1" class="panel-collapse collapse">
             <div class="panel-body">
               <p>
                 Electromagnetic spectrum is a range of frequencies of electromagnetic radiation and their respective wavelengths and photon energies. Only very small part of which is visible to the human eye.
@@ -212,10 +212,10 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Ionaizing Radiation</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1-2">Ionaizing Radiation</a>
             </h4>
           </div>
-          <div id="collapse2" class="panel-collapse collapse">
+          <div id="collapse1-2" class="panel-collapse collapse">
             <div class="panel-body">
               <p>
                 Ionizing radiation consists of:
@@ -234,10 +234,10 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Non-Ionizing Radiation</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1-3">Non-Ionizing Radiation</a>
             </h4>
           </div>
-          <div id="collapse3" class="panel-collapse collapse">
+          <div id="collapse1-3" class="panel-collapse collapse">
             <div class="panel-body">
               <p>
                 Non-Ionizing radiation consists of
@@ -269,15 +269,13 @@
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Electromagnetic spectrum end -->
-
+        </div> <!-- Panel default -->
+      </div> <!-- Panel group -->
+    </div> <!-- Container -->
+  </div> <!-- Section 4 -->
   <!-- Carousel - Natural Source Section5-1-->
   <div class="container-fluid" id="section51">
-    <h1>Natural source <a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom">EMF</a></h1>
+    <h1>Natural source <span class="hidden-lg hidden-md hidden-sm hidden-xl">EMF</span><a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom" class="hidden-xs">EMF</a></h1>
 
     <div id="myCarousel" class="carousel" data-ride="carousel">
       <!-- Indicators -->
@@ -336,7 +334,6 @@
     <div class="hidden-xl hidden-lg hidden-md hidden-sm container">
       <div class="row"  >
         <div class="col">
-          <h3>Natural Sources of EMF are</h3>
           <ul class="list-group">
             <li class="list-group-item">Lightning</li>
             <li class="list-group-item">Sunlight</li>
@@ -349,7 +346,7 @@
   <!-- Carousel - Artifical Source EMF Section 5-2-->
   <div class="container-fluid" id="section52">
 
-    <h1>Artifical source <a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom"> <a href="#" class="close" data-dismiss="alert">&times;</a> EMF</a></h1>
+    <h1>Artifical source <span class="hidden-lg hidden-md hidden-sm hidden-xl">EMF</span><a href="#" data-toggle="popover" title="EMF" data-content="Electromagnetic Field"  data-trigger="hover" data-placement="bottom" class="hidden-xs">EMF</a></h1>
     <p></p>
 
     <div id="myCarousel2" class="carousel" data-ride="carousel">
@@ -438,8 +435,6 @@
             <h1 class="text-light">Other electrical devices</h1>
           </div> <!-- caption -->
         </div> <!-- item -->
-
-
       </div> <!-- carousel inner -->
       <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
@@ -455,7 +450,6 @@
     <div class="hidden-xl hidden-lg hidden-md hidden-sm container">
       <div class="row">
         <div class="col">
-          <h3>Artifical Sources of EMF are</h3>
           <ul class="list-group">
             <li class="list-group-item" style="padding-left=50px">Windmills</li>
             <li class="list-group-item">All Electronic Devices</li>
@@ -463,7 +457,7 @@
             <li class="list-group-item">Metal Plumbing</li>
             <li class="list-group-item">
               <div class="container">
-                <a href="#wirlesscom" data-toggle="collapse"  id="link-a">Wirless Comunications</a>
+                <a href="#wirlesscom" data-toggle="collapse" id="link-a">Wirless Comunications</a>
                 <div id="wirlesscom" class="collapse">
                   <ul>
                     <li>Power Meters</li>
@@ -588,11 +582,6 @@
 
         $(document).ready(function(){
           $('[data-toggle="popover"]').popover();
-        });
-        $(document).on('click','.navbar-collapse.in',function(e) {
-          if( $(e.target).is('a:not(".dropdown-toggle")') ) {
-            $(this).collapse('hide');
-          }
         });
         </script>
 
