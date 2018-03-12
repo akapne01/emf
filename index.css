@@ -1,85 +1,87 @@
- td, th {
-   padding-left:10px;
- }
+td, th {
+  padding-left:10px;
+}
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
- #link-a {
-   margin: 0 -15px;
- }
+#link-a {
+  margin: 0 -15px;
+}
 
 .carousel-inner {
-    max-height: 720px;
-    overflow: hidden;
+  max-height: 720px;
+  overflow: hidden;
 }
 
-  #myCarousel img {
-    min-height: 300px;
-    min-width: 100%;
-  }
+#myCarousel img {
+  min-height: 300px;
+  min-width: 100%;
+}
 
-  #myCarousel2 img {
-    min-height: 300px;
-    min-width: 100%;
-  }
+#myCarousel2 img {
+  min-height: 300px;
+  min-width: 100%;
+}
 
 .carousel-caption {
-    top: 20%;
-    bottom: auto;
-    background: rgba(0, 0, 0, 0.50);
+  top: 20%;
+  bottom: auto;
+  background: rgba(0, 0, 0, 0.50);
 }
 
- .bg-1 {
-       background-color: #1abc9c; /* Green */
-        color: #ffffff;
-       }
+.bg-1 {
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
 
 img {
-        max-width: 100%;
+  max-width: 100%;
 
-      }
+}
 
 .bg-2 {
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
 
 .bg-3 {
-      background-color: #ffffff; /* White */
-      color: #555555;
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+
+@media (max-width: 768px) {
+  #myCarousel0 {
+    display: none;
   }
 
-  @media (max-width: 768px) {
-    #myCarousel0 {
-       display: none;
-     }
+  #myCarousel {
+    display: none;
+  }
 
-     #myCarousel {
-        display: none;
-      }
+  #myCarousel-s2 {
+    display: none;
+  }
 
-      #myCarousel-s2 {
-         display: none;
-       }
+  #myCarousel2 {
+    display: none;
+  }
 
-       #myCarousel2 {
-          display: none;
-        }
+  #carouselSection2 {
+    display: none;
+  }
+}
 
-        #carouselSection2 {
-           display: none;
-         }
-     }
+p, th, td, .carousel-caption, h1, h2, h3, h3, ul, li, a {
+  font-family: "Georgia", Sans-Serif;
+}
 
-     p, th, td, .carousel-caption, h1, h2, h3, h3, ul, li, a {
-       font-family: "Georgia", Times, serif;
-     }
-
-     p, ul, li, table {
-       font-size: 20px;
-     }
+p, ul, li, table {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.6;
+}
