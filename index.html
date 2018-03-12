@@ -543,11 +543,14 @@ $(document).ready(function() {
 $(window).resize(function() {
   $('.carousel .carousel-caption').css('zoom', $('.carousel').width()/1250);
 });
-</script>
 
-<script>
 $(document).ready(function(){
   $('[data-toggle="popover"]').popover();
+});
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+        $(this).collapse('hide');
+    }
 });
 </script>
 
