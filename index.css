@@ -59,7 +59,7 @@ img {
       color: #555555;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 572px) {
     #myCarousel0 {
        display: none;
      }
@@ -75,6 +75,10 @@ img {
        #myCarousel2 {
           display: none;
         }
+
+        #carouselSection2 {
+           display: none;
+         }
      }
 
 
