@@ -1,11 +1,3 @@
-/* body { */
-    /* position: relative; */
-/* } */
-/* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;} */
-/* #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;} */
-/* #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;} */
-/* #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;} */
-/* #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;} */
  td, th {
    padding-left:10px;
  }
@@ -38,7 +30,6 @@
     background: rgba(0, 0, 0, 0.35);
 }
 
-
  .bg-1 {
        background-color: #1abc9c; /* Green */
         color: #ffffff;
@@ -50,8 +41,8 @@ img {
       }
 
 .bg-2 {
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
+      background-color: #ffffff; /* White */
+      color: #555555;
   }
 
 .bg-3 {
@@ -59,7 +50,7 @@ img {
       color: #555555;
   }
 
-  @media (max-width: 572px) {
+  @media (max-width: 768px) {
     #myCarousel0 {
        display: none;
      }
@@ -80,27 +71,3 @@ img {
            display: none;
          }
      }
-
-
-/* center text from 1st section */
-/*
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-*/
-
-/* body { */
-  /* background-image:url("images/windmills3-unsplash.jpg"); */
-  /* background-color: #ffeecc; */
-  /* color: #4d3300; */
-  /* font-family: Georgia; sans-seirif; */
-  /* font-size: 16px; */
-  /* line-height: 2.0; */
-/* } */
-
- /* h1 { */
-  /* color: #332200; */
-/* } */
