@@ -54,6 +54,20 @@ img {
   color: #555555;
 }
 
+p, th, td, .carousel-caption, h1, h2, h3, h3, ul, li, a {
+  font-family: "Georgia", Sans-Serif;
+}
+
+p, ul, li, table {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+p {
+  text-align: justify;
+}
+
+
 @media (max-width: 768px) {
   #myCarousel0 {
     display: none;
@@ -74,14 +88,20 @@ img {
   #carouselSection2 {
     display: none;
   }
-}
-
-p, th, td, .carousel-caption, h1, h2, h3, h3, ul, li, a {
-  font-family: "Georgia", Sans-Serif;
-}
-
-p, ul, li, table {
-  font-size: 20px;
-  text-align: justify;
-  line-height: 1.6;
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p, ul, li, table {
+    font-size: 16px;
+    line-height: 1.6;
+  }
 }
